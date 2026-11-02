@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Pricing Section -->
+<section id="pricing" class="py-24 md:py-32 bg-white relative overflow-hidden border-t border-slate-200/60">
+    <!-- Background Glow Effect -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-blue-300/15 blur-[120px] rounded-full pointer-events-none -z-10"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Section Header -->
+        <div class="text-center max-w-3xl mx-auto mb-20 space-y-4">
+            <span class="text-xs font-extrabold tracking-widest uppercase text-blue-600">Flexible Plans</span>
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight">
+                Simple, transparent <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">pricing</span>
+            </h2>
+            <p class="text-lg text-slate-600 leading-relaxed font-normal">
+                Choose the perfect plan tailored for your business needs. No hidden fees.
+            </p>
+        </div>
+
+        <!-- Pricing Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+            
+            <!-- Starter Plan -->
+            <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200/80 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900">Starter Plan</h3>
+                        <p class="text-slate-500 text-sm mt-1">Perfect for small businesses & startups.</p>
+                    </div>
+                    <div class="flex items-baseline gap-1">
+                        <span class="text-4xl font-black text-slate-900">$29</span>
+                        <span class="text-slate-500 text-sm font-medium">/month</span>
+                    </div>
+                    <!-- Features List -->
+                    <ul class="space-y-3 pt-4 border-t border-slate-200/80">
+                        <li class="flex items-center gap-3 text-sm text-slate-700">
+                            <span class="w-5 h-5 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-xs shrink-0">✓</span>
+                            Core Infrastructure Access
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-slate-700">
+                            <span class="w-5 h-5 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-xs shrink-0">✓</span>
+                            Standard Security Shield
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-slate-700">
+                            <span class="w-5 h-5 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-xs shrink-0">✓</span>
+                            Email Support (24/7)
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-slate-400 line-through">
+                            Dedicated Technical Architect
+                        </li>
+                    </ul>
+                </div>
+                <div class="pt-8">
+                    <a href="#signup" class="w-full inline-block text-center bg-white text-slate-800 border border-slate-300 px-6 py-3.5 rounded-xl font-bold text-sm hover:bg-slate-100 hover:border-slate-400 transition-all duration-200 shadow-sm">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+
+            <!-- Professional Plan (Featured / Most Popular) -->
+            <div class="relative bg-slate-900 text-white rounded-2xl p-8 border-2 border-blue-600 shadow-2xl scale-105 flex flex-col justify-between">
+                <!-- Most Popular Badge -->
+                <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider shadow-md">
+                    Most Popular
+                </div>
+
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-xl font-bold text-white">Professional Plan</h3>
+                        <p class="text-slate-400 text-sm mt-1">Ideal for growing companies.</p>
+                    </div>
+                    <div class="flex items-baseline gap-1">
+                        <span class="text-4xl font-black text-white">$79</span>
+                        <span class="text-slate-400 text-sm font-medium">/month</span>
+                    </div>
+                    <!-- Features List -->
+                    <ul class="space-y-3 pt-4 border-t border-slate-800">
+                        <li class="flex items-center gap-3 text-sm text-slate-200">
+                            <span class="w-5 h-5 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs shrink-0">✓</span>
+                            High-Speed Global Network
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-slate-200">
+                            <span class="w-5 h-5 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs shrink-0">✓</span>
+                            Advanced Enterprise Shield
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-slate-200">
+                            <span class="w-5 h-5 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs shrink-0">✓</span>
+                            Priority 24/7 Live Support
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-slate-200">
+                            <span class="w-5 h-5 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs shrink-0">✓</span>
+                            Real-time Analytics Dashboard
+                        </li>
+                    </ul>
+                </div>
+                <div class="pt-8">
+                    <a href="#signup" class="w-full inline-block text-center bg-blue-600 text-white px-6 py-3.5 rounded-xl font-bold text-sm hover:bg-blue-500 hover:shadow-lg hover:shadow-blue-500/30 transition-all duration-200 shadow-md">
+                        Start Free Trial
+                    </a>
+                </div>
+            </div>
+
+            <!-- Enterprise Plan -->
+            <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200/80 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900">Enterprise Plan</h3>
+                        <p class="text-slate-500 text-sm mt-1">Built for large-scale operations.</p>
+                    </div>
+                    <div class="flex items-baseline gap-1">
+                        <span class="text-4xl font-black text-slate-900">$199</span>
+                        <span class="text-slate-500 text-sm font-medium">/month</span>
+                    </div>
+                    <!-- Features List -->
+                    <ul class="space-y-3 pt-4 border-t border-slate-200/80">
+                        <li class="flex items-center gap-3 text-sm text-slate-700">
+                            <span class="w-5 h-5 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-xs shrink-0">✓</span>
+                            Unlimited Global Infrastructure
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-slate-700">
+                            <span class="w-5 h-5 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-xs shrink-0">✓</span>
+                            Bank-Grade Encryption & Compliance
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-slate-700">
+                            <span class="w-5 h-5 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-xs shrink-0">✓</span>
+                            Dedicated Technical Architect
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-slate-700">
+                            <span class="w-5 h-5 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-xs shrink-0">✓</span>
+                            Custom Integration & SLA
+                        </li>
+                    </ul>
+                </div>
+                <div class="pt-8">
+                    <a href="#contact" class="w-full inline-block text-center bg-white text-slate-800 border border-slate-300 px-6 py-3.5 rounded-xl font-bold text-sm hover:bg-slate-100 hover:border-slate-400 transition-all duration-200 shadow-sm">
+                        Contact Sales
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+</body>
+</html>
